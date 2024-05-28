@@ -495,9 +495,9 @@ class _DashboardStackState<T extends DashboardItem>
       _moveStartOffset = null;
       _holdDirections = null;
       _startScrollPixels = null;
-      speed = 0;
       widget.dashboardController.saveEditSession();
     });
+    speed = 0;
     widget.onScrollStateChange(true);
   }
 }
